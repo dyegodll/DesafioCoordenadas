@@ -78,8 +78,10 @@ public class Coordenadas {
 				System.out.println("\tORIGEM");
 			}
 			
+			scan.close();
+			
 		}catch(Exception e) {
-			System.out.println("Erro...\n"+e);
+			System.out.println("OPS! Valor informado inválido...tente novamente!\n");
 		}
 		
 	}//quadrante
